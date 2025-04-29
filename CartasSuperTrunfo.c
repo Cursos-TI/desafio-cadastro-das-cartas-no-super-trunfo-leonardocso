@@ -48,7 +48,7 @@ int main() {
     int points[7];
     
     for (int i=0; i < 2; i++) {
-        gameCard[i].state='A';
+        gameCard[i].state = 'A';
         gameCard[i].code = i + 1;
         
         printf("Insira os dados da carta %c%u\n",
